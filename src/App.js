@@ -29,7 +29,7 @@ class App extends Component {
           className="btn"
           // disabled = {this.state.mount}
         >
-          Unmount
+          Un-mount
         </button>
 
         {this.state.mount ? <Counter/> : null}
